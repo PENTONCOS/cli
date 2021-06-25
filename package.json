@@ -2,7 +2,9 @@
   "name": "jpd-cli",
   "version": "1.0.0-beta.1",
   "description": "这是一个自用脚手架",
-  "bin": "./bin/cli.js",
+  "bin": {
+    "jpd": "./bin/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,7 +23,12 @@
     "react-router-dom": "^5.2.0"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "chalk": "^4.1.1",
-    "ejs": "^3.1.6"
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.6",
+    "figlet": "^1.5.0",
+    "fs-extra": "^10.0.0",
+    "util": "^0.12.4"
   }
 }
