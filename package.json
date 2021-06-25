@@ -9,9 +9,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "cli"
+    "jpd-cli",
+    "jpd",
+    "脚手架"
   ],
-  "author": "jiapandong",
+  "author": {
+    "name":"jiapandong",
+    "email": "515327098@qq.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "commander": "^8.0.0",
